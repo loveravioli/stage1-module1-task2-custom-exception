@@ -4,7 +4,6 @@ package com.epam.mjc;
 import java.util.Arrays;
 
 public enum Student {
-
   MAX(1, "Max", 15),
   KOLYA(2, "Kolya", 18),
   SHAIL(3, "Shail", 30),
@@ -44,4 +43,6 @@ public enum Student {
   public int getAge() {
     return age;
   }
+
+
 }
